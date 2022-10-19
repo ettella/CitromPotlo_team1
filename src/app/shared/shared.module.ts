@@ -9,16 +9,16 @@ import { CustomCheckboxComponent } from './components/custom-checkbox/custom-che
 @NgModule({
   declarations: [
     CustomButtonComponent,
-    // CustomInputComponent,
-    // CustomCheckboxComponent,
+    CustomInputComponent,
+    CustomCheckboxComponent,
   ],
   imports: [CommonModule, ReactiveFormsModule, ngPrimeModule],
   exports: [
     ReactiveFormsModule,
     ngPrimeModule,
     CustomButtonComponent,
-    // CustomInputComponent,
-    // CustomCheckboxComponent,
+    CustomInputComponent,
+    CustomCheckboxComponent,
   ],
 })
 export class SharedModule {}

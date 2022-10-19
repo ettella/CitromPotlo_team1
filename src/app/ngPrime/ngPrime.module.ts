@@ -1,9 +1,10 @@
-import { NgModule } from "@angular/core";
-import {ButtonModule} from 'primeng/button';
+import { NgModule } from '@angular/core';
+import { ButtonModule } from 'primeng/button';
+import { InputTextModule } from 'primeng/inputtext';
 
 @NgModule({
-    declarations: [],
-    imports: [ButtonModule],
-    exports: [ButtonModule],
-    })
-    export class ngPrimeModule { }
+  declarations: [],
+  imports: [ButtonModule, InputTextModule],
+  exports: [ButtonModule, InputTextModule],
+})
+export class ngPrimeModule {}
