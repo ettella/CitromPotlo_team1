@@ -1,0 +1,52 @@
+{
+    "todos": [
+      {
+        "id": 1,
+        "title": "Do homework",
+        "username": "awrenn1",
+        "description": "doing something",
+        "date": "2022-03-03",
+        "email": "agteshnj@com.com"
+      },
+      {
+        "id": 2,
+        "title": "Do homework",
+        "username": "paris3",
+        "description": "doing something",
+        "date": "2022-03-01",
+        "email": "agteshnj@com.com"
+      },
+      {
+        "id": 3,
+        "title": "Do homework",
+        "username": "blable4",
+        "description": "doing something",
+        "date": "2022-03-03",
+        "email": "agteshnj@com.com"
+      },
+      {
+        "id": 4,
+        "title": "Do homework",
+        "username": "Huli67",
+        "description": "doing something",
+        "date": "2022-03-03",
+        "email": "agteshnj@com.com"
+      },
+      {
+        "id": 5,
+        "title": "Do homework",
+        "username": "Fenn01",
+        "description": "doing something",
+        "date": "2022-03-04",
+        "email": "agteshnj@com.com"
+      },
+      {
+        "id": 6,
+        "title": "Do homework",
+        "username": "Pazur",
+        "description": "doing something",
+        "date": "2022-03-02",
+        "email": "agteshnj@com.com"
+      }
+    ]
+}
