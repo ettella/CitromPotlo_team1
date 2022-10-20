@@ -1,3 +1,4 @@
+import { Todo } from './models/todo-model';
 import { Component, OnInit } from '@angular/core';
 import { HttpService } from './services/http.service';
 
@@ -9,9 +10,17 @@ import { HttpService } from './services/http.service';
 export class AppComponent implements OnInit {
   title = 'citromPotlo';
 
-  constructor(private httpService: HttpService) { }
+  todos: Todo[] = [];
+
+  constructor(private httpService: HttpService) {
+    this.httpService.getAllTodos().subscribe((todoData)=> {
+      this.todos = todoData as Todo[];
+      console.log(this.todos);
+      
+    })
+   
+   }
 
   ngOnInit(): void {
-    this.httpService.getAllTodos().subscribe();
   }
 }
