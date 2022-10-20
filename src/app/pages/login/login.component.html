@@ -5,13 +5,19 @@
       [placeHolder]="'Username'"
       [type]="'text'"
     ></app-custom-input>
-    <app-custom-input
-      [label]="'Password'"
-      [placeHolder]="'Password'"
-      [type]="'password'"
-    ></app-custom-input>
+    <div class="ng-dirty ng-invalid p-mr-2"  >
+      <app-custom-input
+        [label]="'Password'"
+        [placeHolder]="'Password'"
+        [type]="'password'"
+      ></app-custom-input>
+      <p-message severity="error" text="Field is required"></p-message>
+    </div>
     <div class="button-container">
-      <app-custom-button [name]="'Login'"></app-custom-button>
+      <app-custom-button
+        [name]="'Login'"
+        (ngSubmit)="onSubmit()"
+      ></app-custom-button>
     </div>
     <div class="link-container">
       <span class="link">No account yet?</span>
