@@ -1,14 +1,19 @@
-.login-form-container {
-  width: 999px;
-  height: 666px;
-  background-color: black;
+.login-box {
+  width: 100%;
+  max-width: 400px;
+  min-height: 400px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: blueviolet;
+  padding: 15px 0;
+  position: relative;
 }
 
-.login-box {
+.login-form-container {
   justify-content: center;
-  display: flex;
-  align-items: center;
-
+  position: relative;
+  display:flex;
 }
