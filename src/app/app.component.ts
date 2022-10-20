@@ -10,16 +10,7 @@ import { HttpService } from './services/http.service';
 export class AppComponent implements OnInit {
   title = 'citromPotlo';
 
-  todos: Todo[] = [];
-
-  constructor(private httpService: HttpService) {
-    this.httpService.getAllTodos().subscribe((todoData)=> {
-      this.todos = todoData as Todo[];
-      console.log(this.todos);
-      
-    })
-   
-   }
+  constructor() {}
 
   ngOnInit(): void {
   }
