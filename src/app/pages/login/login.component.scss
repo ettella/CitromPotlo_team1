@@ -6,8 +6,8 @@
   flex-direction: column;
   gap: 30px;
   align-items: center;
-  justify-content: flex-start;
-  background-color: blueviolet;
+  justify-content: center;
+  background-color: rgb(231, 99, 235);
   padding: 15px 0;
   position: relative;
 }
@@ -15,5 +15,19 @@
 .login-form-container {
   justify-content: center;
   position: relative;
-  display:flex;
+  display: flex;
+  width: 1980px;
+  height: 1080px;
+  background-color: aqua;
+}
+
+.button-container {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+
+
+.link {
+  color: white;
 }
